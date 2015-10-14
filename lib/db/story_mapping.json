@@ -1,0 +1,75 @@
+{
+  "story": {
+    "properties": {
+      "country": {
+        "type": "string"
+      },
+      "id": {
+        "type": "long"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "date",
+        "format": "dateOptionalTime"
+      },
+      "title": {
+        "type": "string"
+      },
+      "title_ro": {
+        "type": "string",
+        "analyzer": "romanian"
+      },
+      "title_ru": {
+        "type": "string",
+        "analyzer": "russian"
+      },
+      "title_en": {
+        "type": "string",
+        "analyzer": "english"
+      },
+      "title_bg": {
+        "type": "string",
+        "analyzer": "bulgarian"
+      },
+      "title_hu": {
+        "type": "string",
+        "analyzer": "hungarian"
+      },
+      "title_cs": {
+        "type": "string",
+        "analyzer": "czech"
+      },
+      "title_it": {
+        "type": "string",
+        "analyzer": "italian"
+      },
+      "title_tr": {
+        "type": "string",
+        "analyzer": "turkish"
+      },
+      "uniqueName": {
+        "type": "string",
+        "index": "no"
+      },
+      "imageId": {
+        "type": "string",
+        "index": "no"
+      },
+      "quotes": {
+        "type": "string",
+        "index": "no"
+      },
+      "videos": {
+        "type": "string",
+        "index": "no"
+      }
+    },
+    "_ttl": {
+      "enabled": true,
+      "default": "90d"
+    }
+  }
+}
+

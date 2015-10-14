@@ -1,0 +1,29 @@
+{
+  "name": "ournet.data.stories",
+  "version": "0.1.0",
+  "description": "Ournet stories data module",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "elasticsearch": "^4.0.2",
+    "joi": "^6.4.1",
+    "ournet.core": "^0.1.8",
+    "ournet.data": "^0.0.8",
+    "vogels": "^2.0.0-rc9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ournet/ournet.data.stories.git"
+  },
+  "keywords": [
+    "ournet",
+    "data",
+    "stories"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC"
+}
