@@ -34,4 +34,11 @@ describe('Access', function() {
 				assert.equal(1, items.length);
 			});
 	});
+	it('#importantStoriesIds', function() {
+		return Data.access.importantStoriesIds('ru_ru')
+			.then(function(ids) {
+				assert.ok(ids);
+				assert.equal(true, ids.length > 0);
+			});
+	});
 });
