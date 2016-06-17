@@ -1,6 +1,6 @@
 {
   "name": "ournet.data.stories",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "Ournet stories data module",
   "main": "./lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "dependencies": {
     "atonic": "^1.0.4",
     "bluebird": "^3.3.4",
-    "elasticsearch": "^10.0.0",
+    "elasticsearch": "10.0.0",
     "lodash": "^4.6.1",
     "memory-cache": "^0.1.4",
     "ournet.utils": "^0.1.0",
