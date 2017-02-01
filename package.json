@@ -1,6 +1,6 @@
 {
   "name": "ournet.data.stories",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Ournet stories data module",
   "main": "./lib/index.js",
   "scripts": {
